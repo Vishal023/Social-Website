@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>chat box</title>
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/chat-box.css">
+    <body>
+        
+        <div class="tagline">
+            <div class="home">
+                <a href="Home.html"><i class="fa fa-home"> Home&nbsp;</i></a>
+            </div>
+            <div class="myprofile">
+                <a href="Profile.html"><i class="fa fa-id-card"> Profile&nbsp;</i></a>
+            </div>
+    
+            <div class="notification">
+                <a href="#"><i class="fa fa-globe"> Notification&nbsp;</i></a>
+            </div>
+        
+            <div class="friend">
+                <a href="friends.html" class="activefrnd"><i class="fa fa-user"> Friend&nbsp;</i></a>
+            </div>
+            <div class="photos">
+                <a href="pictues.html"><i class="fa fa-picture-o"> My Pictures&nbsp;</i></a>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+        <div class="chat-container" id="chatcc">
+            <div class="chatbox">
+            <img src="images/man.png" alt="avatar" style="width:100%" ;>
+            <p>Hi.... :)</p>
+            <span class="time-right">4:00</span>
+            </div>
+            
+            <div class="chatbox second" id="chatbox-second">
+            <img src="images/girl.jpg" alt="avatar" style="width:100%" ;>
+            <p id="secondchat">Hello what's up...</p>
+            <span class="time-left">4:02</span>
+            </div>  
+        </div>
+        <div class="chat-popup" id="myform">
+                <form action="" class="form-container">
+                <input type="text" name="msg" placeholder="Type your Message........" id="message" style="width: 50%;">
+                </form>
+            </div>
+            <div class="chat-popup">
+                <button type="submit" class="btn" onclick="myFunction()">
+                Send
+                </button>
+            </div>
+          </div>
+        <script>
+            function myFunction(){ 
+               
+                var div=document.createElement("div");
+                
+                div.className="chatbox";
+                
+                div.innerHTML='<img src="images/man.png" alt="avatar"  style="width:100%">';
+                
+                div.innerHTML+='<p id="firstchat1"><var>x</var></p>';
+
+                    
+                div.innerHTML += '<span class="time-right">4:02</span>';
+                
+               var y=document.getElementById("chatcc"); y.append(div);
+                 var x=document.getElementById("message").value;
+                document.getElementById("firstchat1").innerHTML =x;  
+            }
+        </script>
+    </body>
+</html>

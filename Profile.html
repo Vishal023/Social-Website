@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Photos</title>
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Profile.css">
+    <style>
+    
+        body
+        {
+            margin: 0;
+        }
+        .head
+        {
+            display: flex;
+            background-color:#c00000;
+            flex-flow: row wrap;
+            width: 100%;
+            justify-content: space-between;
+            align-content: center;
+            border-bottom: 1.5px solid;
+        }
+        .head h1
+        {
+            font-family: Matura MT Script Capitals;
+            color: aliceblue;
+            padding: 0px;
+            margin: 0px;
+        }
+        .container
+        {
+            position: relative;
+            width: 100%;
+ 
+        }
+        .image
+        {
+            width: 100%;
+            height: 250px;
+        }
+        .overlay
+        {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+        }
+        .uname
+        {
+            position: absolute;
+            bottom: 5px;
+            left: 200px;
+            font-weight: bolder;
+            color: whitesmoke;
+            font-size: 20px;
+            font-family: sans-serif;
+            margin: 5px;
+            padding: 10px;
+        }
+        .tagline
+        {
+            background-color: ghostwhite;
+            display:flex;
+            align-content: center;
+            justify-content: space-around;
+            padding: 8px; 
+        }
+        .tagline a
+        {
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+        .tagline a:hover
+        {
+            width: 100%;
+            background-color:#ccc;
+            color: black;
+        }
+        .tagline a:active
+        {
+            background-color: #ccc;
+            color: black;
+        }
+        .head1 input[type="text"]
+        {
+            margin:5px;
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 2px;
+        }
+        .head1 button
+        {
+            margin: 5px;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: none;
+            border-radius: 2px;
+        }
+        
+    </style>
+    <body>
+        <header>
+            <div class="head">
+                <h1>Socio<sub> link</sub></h1>
+                <div class="head1">
+                    <input type="text" placeholder="Search...." >
+                    <button>
+                    <i class="fa fa-search"></i>
+                    </button>
+                </div> 
+            </div>
+        </header>
+        <div class="container">
+            <img src="images/iu3465NHBA.jpg" class="image">
+            <div class="overlay">
+                <img src="images/man.png" class="pp" style="border: 5px solid;border-radius: 100%">
+            </div>
+            <div class="uname">
+                <p>Vishal Singh</p>
+            </div>
+        </div>
+        <div class="tagline">
+            <div class="home">
+                <a href="Home.html"><i class="fa fa-home"> Home  </i></a>
+            </div>
+            <div class="myprofile">
+                <a href="Profile.html"><i class="fa fa-id-card"> Profile </i></a>
+            </div>
+    
+            <div class="notification">
+                <a href="#"><i class="fa fa-globe"> Notification </i></a>
+            </div>
+        
+            <div class="friend">
+                <a href="friends.html"><i class="fa fa-user"> Friend </i></a>
+            </div>
+            <div class="photos">
+                <a href="pictues.html"><i class="fa fa-picture-o"> My Pictures </i></a>
+            </div>
+        </div>
+        <div class="containerprofile">
+            <div class="containerintro">
+                <div class="intro">Intro</div>
+                <br/>
+                
+                <div class="introstart">Former student at <a href="www.google.com/cmslucknow" style="text-decoration: none;">CMS lucknow</a></div>
+                
+                <div class="introstart">Studies at <a href="www.google.com/lpupunjab" style="text-decoration: none;">Lovely Professional University</a></div>
+                
+                <div class="introstart">Lives in <a href="www.google.com/jalandhar" style="text-decoration: none;"> Jalandhar</a></div>
+                <br/>
+                
+                <div class="featuredphotosname">
+                Feautred Photos
+                </div>
+                <div class="featuredphotos">
+                <div class="featuredphotos1">
+                <img src="images/fimg1.png" style="height: 90px;width:90px;">
+                </div>
+                <div class="featuredphotos1">
+                <img src="images/fimg2.png" style="height: 90px;width:90px;">
+                </div>
+                </div>
+                <br/>
+                    
+                <div class="totfrnd">
+                        Friends <label>(500+)</label>
+                    </div>
+                <div class="friends">
+
+                    
+                    <div class="friendlist">
+                        <div class="friendname">
+                        <img src="images/4889775.jpg" style="width: 120px;height:120px" class="frimg">
+                            <div class="over">John Cena</div>
+                        </div>
+                        <div class="friendname">
+                        <img src="images/21280014.jpg" style="width: 120px;height:120px" class="frimg">
+                            <div class="over">Brie Larson</div>
+                        </div>
+                        <div class="friendname">
+                        <img src="images/6259381.jpg" style="width: 120px;height:120px" class="frimg">
+                            <div class="over">Tony Stark</div>
+                        </div>
+                        <div class="friendname">
+                        <img src="images/10227133.jpg" style="width: 120px;height:120px" class="frimg">
+                            <div class="over">Ram Kumar</div>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+            <div class="usertimeline">
+                <div class="newpost">
+                    <div>
+                        <img src="images/man.png" style="height:50px; width:50px;">
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div>
+                        <input type="text" style="width:250px;height: 65px;" placeholder="What is on your mind!!!!">
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="button" value="Post">
+                    </div>
+                </div>
+                
+                <div class="addpic">
+                    <i class="fa fa-file-image-o" style="text-align: center; font-size: 28px;"></i>&nbsp;<input type="file" accept="image/*">
+                </div>
+                    <hr/>
+                    <br/>
+                 <div class="posthead">
+                        Posts
+                    </div>
+                <br/>
+                
+                <div class="mypost">    
+                   
+                    <div class="posts">
+                        <div class="prof">
+                            <span><img src="images/man.png" alt="avatar" style="width:60px">
+                                <label> Vishal Singh</label></span> 
+                        </div>
+            
+                        <div class="post">
+                                <p>That's how we do it!!
+                                </p>
+                                <img src="images/iuYMMFXJM5.jpg" alt="avatar" style="width:60%">
+                        </div>
+                        <div class="reaction">
+                            <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"> 100 Likes</i></a>
+                            <a href="#"><i class="fa fa-comment-o"> 150 Comments</i></a>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="mypost">    
+                   
+                    <div class="posts">
+                        <div class="prof">
+                            <span><img src="images/man.png" alt="avatar" style="width:60px">
+                                <label> Vishal Singh</label></span> 
+                        </div>
+            
+                        <div class="post">
+                                <p>Amazing trip
+                                </p>
+                                <img src="images/iu.jpg" alt="avatar" style="width:60%">
+                        </div>
+                        <div class="reaction">
+                            <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"> 1500 Likes</i></a>
+                            <a href="#"><i class="fa fa-comment-o"> 250 Comments</i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </body>
+</html>

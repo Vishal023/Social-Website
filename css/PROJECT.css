@@ -1,0 +1,134 @@
+body
+{
+font-family:sans-serif;
+margin: 0px;
+    background-color: whitesmoke;
+}
+.start
+{
+display: flex;
+background-color:#c00000;
+flex-flow: row wrap;
+justify-content:space-between;
+align-content: flex-start;
+}
+.content h1
+{
+font-family: Matura MT Script Capitals;
+color: aliceblue;
+padding: 5px;
+margin: 5px;
+}
+.signinform
+{
+margin:15px;
+}
+.content input
+{
+padding: 5px;
+border:solid none;
+}
+#log-btn
+{
+border: none;
+background-color:lightgrey;
+cursor: grab;
+padding:7px;
+}
+#log-btn:hover
+{    
+background-color: grey;  
+color: white;
+}
+
+.signup
+{
+  display: flex;
+  flex-flow: row wrap;
+  background="1.jpg";
+  justify-content: center;
+  align-content: center;
+  font-family: calibri;
+}
+.signupform
+{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid none;
+    border-radius:8px;
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+.signupform1
+{
+  display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  text-align: center;
+}
+.signupform h2
+{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: cursive;
+    font-size: 15px;
+    color:grey ;
+}
+.signupform p
+{
+    font-family: sans-serif;
+}
+#lastname ,#firstname , #newemail,#newpass , #confirmpass ,#signupbtn
+{
+    
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    border-width:1.5px;
+    border-radius: 2px;
+    width: 100%;
+}
+.signupform select
+{
+    padding:5px;
+    margin:5px;
+    border-top:none;
+    border-bottom: none;
+    border-radius:2px;
+}
+.signupform input[type="radio"]
+{
+    margin:5px;
+}
+#signupbtn
+{
+    background-color: #c00000;
+    color:whitesmoke;
+    border:solid none;
+}
+#signupbtn:hover
+{
+    background-color:dodgerblue; 
+    border:  1.5px solid blue;
+    color: black;
+}
+.end
+{
+    display: block;
+    background-color: #c00000;
+    height: 40px;
+}
+
+
+/*__________________________________________________*/
+@media screen and (max-width:414px)
+{
+}

@@ -1,0 +1,229 @@
+body
+{
+margin: 0px;
+background-color:#F5F5F5;
+}
+.container
+{
+display: flex;
+flex-flow: row wrap;
+align-content:center;
+justify-content: space-around;
+background-color: #c00000;  
+}
+.container a{
+float: left;
+text-align: center;
+width: 100%;
+padding: 10px;
+margin: 10px;
+transition: all 0.3s ease; 
+color: aliceblue; 
+background-color:transparent;
+font-size: 18px;
+}
+.container a:hover {
+
+width: 100%;
+background-color:#ccc;
+}
+.name
+{
+color: aliceblue;
+font-size: 18px;
+}
+.signinform
+{
+margin:15px;
+}
+.content input
+{
+padding: 5px;
+border:solid none;
+}
+#log-btn
+{
+border: none;
+background-color:lightgrey;
+cursor: grab;
+padding:7px;
+}
+#log-btn:hover
+{    
+background-color: grey;  
+color: white;   
+}
+.leftpanel
+{
+float:left;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-around;
+align-content: center;
+height: 100%;
+background-color: lightgrey;
+    width: 20%;
+}
+.leftpanel a
+{
+text-align: center;
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+}
+.leftpanel a:hover
+{
+background-color: #F5F5F5;
+padding: 15px;
+}
+.rightpanel
+{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-content: flex-start;
+margin: 20px;
+width: 50%;
+}
+
+.timeline
+{
+display: flex;
+flex-flow: column wrap;
+align-content: center;
+justify-content: flex-start;    
+border: 1px solid;
+background-color: white;
+max-width: 100%;
+}
+.prof
+{
+font-size: 20px;
+margin: 10px;
+}
+.post
+{
+margin: 20px;
+text-align: center;
+font-size: 25px;
+}
+.reaction
+{    
+display: flex;
+align-content: center;
+justify-content: space-around;
+margin: 10px;
+padding: 10px;
+font-size: 18px;
+}
+.comment input
+{
+margin: 10px;
+padding: 10px;
+width: 95%;
+}
+.newsfeed
+{
+background-color:#F5F5F5;
+padding: 15px;
+}
+
+.homepanels
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:flex-start;
+}
+.rightmost
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    max-height:104%;
+}
+.friendbox
+{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.friendsuggestion
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    
+}
+.friendsonline
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+.friendboxonline
+{
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid dodgerblue;
+}
+.friendboxonline:nth-child(even) .frndbtn
+{
+    color: red;
+    background-color: transparent;
+    border: none;  
+}
+.friendboxonline:nth-child(even) .chatbtn
+{
+    background-color:orange;
+    border:2px solid;
+    border-radius: 15px;
+    color: white;
+}
+.friendboxonline .frndbtn
+{
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+}
+.frndbtn
+{
+    color: firebrick;
+    background-color:azure;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.chatbtn
+{
+    background-color:dodgerblue;
+    border:2px solid;
+    border-radius: 15px;
+    color: white;
+}
+.chatbtn:hover
+{
+    background-color: #ccc;
+}
+.fname
+{
+    font-weight: bold;
+    color: dodgerblue;
+}
+.stat
+{
+    font-weight: lighter;
+    color: dimgrey;
+}

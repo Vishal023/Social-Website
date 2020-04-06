@@ -1,0 +1,130 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+.head
+{
+    display: flex;
+    background-color:#c00000;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1.5px solid;
+}
+.head h1
+{
+    font-family: Matura MT Script Capitals;
+    color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+
+}
+.image
+{
+    width: 100%;
+    height: 250px;
+}
+.overlay
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.uname
+{
+    position: absolute;
+    bottom: 5px;
+    left: 200px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+.tagline
+{
+    background-color: ghostwhite;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 8px; 
+}
+.tagline a
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: dodgerblue;
+}
+.tagline a:hover
+{
+    width: 100%;
+    background-color:#ccc;
+    color: black;
+}
+.tagline a:active
+{
+    background-color: #ccc;
+    color: black;
+}
+.head1 input[type="text"]
+{
+    margin:5px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 2px;
+}
+
+.head1 button
+{
+    margin: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 2px;
+}
+.lib
+{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    border: 5px solid whitesmoke;
+    margin: 50px;
+    padding: 5px;
+}
+.pname
+{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border-top:solid;
+    margin: 50px;
+}
+.libimg
+{
+    width: 250px;
+    height:250px;
+    margin: 8px;
+    padding: 10px; 
+}
+.libimg button
+{
+    width: 100%;
+    height: 100%;
+    font-size: 1000%;
+}
+.lib img
+{
+    width: 250px;
+    height:250px;
+}

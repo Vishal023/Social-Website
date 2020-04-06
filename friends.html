@@ -1,0 +1,188 @@
+<html>
+<head>
+    <title>Friends</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+        body
+        {
+            margin:2em;
+            font-family: sans-serif;
+            background-color: dodgerblue;
+        }
+        .container
+        {
+            background-color: lightgrey;
+        }
+        .container1
+        {
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            padding: 10px;
+            color: white;
+            font-size: 22px;
+        }
+        .abtn
+        {
+            border: none;
+            color: dodgerblue;
+            font-size: 22px;
+        }
+        .all
+        {
+            display: grid;
+            grid-template-columns:30% 30% 30%;
+        }
+        .friendbox
+        {
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+            
+        }
+        .fname
+        {
+            font-weight: bolder;
+            color: dodgerblue;
+        }
+        .frndbtn
+        {
+            float: right;
+            padding: 6px;
+        }
+        .stat
+        {
+            font-weight: lighter;
+            color: gainsboro;
+            float: right;
+        }
+        .friendbox img
+        {
+            border: 1px solid;
+            padding: 5px;
+        }
+        #addmore
+        {
+            display:block;
+            font-size: 200px;
+            text-align: center;
+            margin-top: 20px;
+        }
+         .tagline
+        {
+            background-color: ghostwhite;
+            display:flex;
+            align-content: center;
+            justify-content: space-around;
+            padding: 9.3px; 
+        }
+        .tagline a
+        {
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            color: dodgerblue;
+        }
+        .tagline a:hover
+        {
+            width: 100%;
+            background-color:#ccc;
+            color: black;
+        }
+        .tagline a:active
+        {
+            background-color: #ccc;
+            color: black;
+        }
+        .activefrnd
+        {
+            background-color:dimgrey;
+            color: black; 
+        }
+    </style>
+<body>
+     <div class="tagline">
+            <div class="home">
+                <a href="Home.html"><i class="fa fa-home"> Home&nbsp;</i></a>
+            </div>
+            <div class="myprofile">
+                <a href="Profile.html"><i class="fa fa-id-card"> Profile&nbsp;</i></a>
+            </div>
+    
+            <div class="notification">
+                <a href="#"><i class="fa fa-globe"> Notification&nbsp;</i></a>
+            </div>
+        
+            <div class="friend">
+                <a href="friends.html" class="activefrnd"><i class="fa fa-user"> Friend&nbsp;</i></a>
+            </div>
+            <div class="photos">
+                <a href="pictues.html"><i class="fa fa-picture-o"> My Pictures&nbsp;</i></a>
+            </div>
+        </div>
+    <div class="container">
+        <div class="container1">
+            <div class="Friends">
+            <i class="fa fa-users"> Friends</i>
+            </div>
+            <div class="addfind">
+            <button class="abtn">
+            <i class="fa fa-plus"> Add Friends</i>    
+            </button>
+            <button class="abtn">
+                <i class="fa fa-search"> Search Friends</i>
+            </button>
+            </div>
+        </div>
+        <div class="all">
+            <div class="friendbox">
+                <img src="images/4889775.jpg" style="width:120px;height: 120px;">
+                    <p class="fname">John <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">2 mutual friends</p>
+            </div>
+            <div class="friendbox">
+                 <img src="images/brie.jpg" style="width:120px;height: 120px;">
+                    <p class="fname">Brie <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">20 mutual friends</p>
+                    
+            </div>
+            <div class="friendbox">
+                <img src="images/10197920.jpg" style="width:120px;height: 120px;">
+                    <p class="fname" class="fname">Ram <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">No mutual friends</p>
+                    
+            </div >
+            <div class="friendbox">
+                <img src="images/10227133.jpg" style="width:120px;height: 120px;">
+                    <p class="fname">Ashutosh <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">100 mutual friends</p>
+                    
+            </div>
+            <div class="friendbox">
+                <img src="images/fimg2.png" style="width:120px;height: 120px;">
+                    <p class="fname">Avneep <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">15 mutual friends</p>
+                    
+            </div>
+            <div class="friendbox"> 
+                <img src="images/fimg1.png" style="width:120px;height: 120px;">
+                    <p class="fname">Sneh <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">1 mutual friends</p>
+                    
+            </div>
+            <div class="friendbox">
+                <img src="images/tony.jpg" style="width:120px;height: 120px;">
+                    <p class="fname">Tony <button class="frndbtn"><i class="fa fa-check"> Friends</i></button></p>
+                    <p class="stat">No mutual <a></a>friends</p>                    
+            </div>
+            <div class="friendbox">
+                <a href="" style="text-decoration:none; color: dodgerblue;">
+                <i class="fa fa-plus-square-o" id="addmore"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
